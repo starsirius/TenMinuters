@@ -21,6 +21,7 @@
 		9BAA390515E1726F00116E8E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA38EA15E1726F00116E8E /* CoreData.framework */; };
 		9BAA390D15E1726F00116E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA390B15E1726F00116E8E /* InfoPlist.strings */; };
 		9BAA391015E1726F00116E8E /* TenMinutersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA390F15E1726F00116E8E /* TenMinutersTests.m */; };
+		9BAA393815E1748700116E8E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA393715E1748700116E8E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9BAA390C15E1726F00116E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BAA390E15E1726F00116E8E /* TenMinutersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TenMinutersTests.h; sourceTree = "<group>"; };
 		9BAA390F15E1726F00116E8E /* TenMinutersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenMinutersTests.m; sourceTree = "<group>"; };
+		9BAA393715E1748700116E8E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		9BAA38D515E1726F00116E8E = {
 			isa = PBXGroup;
 			children = (
+				9BAA393715E1748700116E8E /* README.md */,
 				9BAA38EC15E1726F00116E8E /* TenMinuters */,
 				9BAA390815E1726F00116E8E /* TenMinutersTests */,
 				9BAA38E315E1726F00116E8E /* Frameworks */,
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAA38F115E1726F00116E8E /* InfoPlist.strings in Resources */,
+				9BAA393815E1748700116E8E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
