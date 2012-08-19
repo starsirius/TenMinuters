@@ -39,18 +39,18 @@
 		9BAA38E615E1726F00116E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BAA38E815E1726F00116E8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9BAA38EA15E1726F00116E8E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		9BAA38EE15E1726F00116E8E /* TenMinuters-Info.plist */ = {isa = PBXFileReference; path = "TenMinuters-Info.plist"; sourceTree = "<group>"; };
+		9BAA38EE15E1726F00116E8E /* TenMinuters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TenMinuters-Info.plist"; sourceTree = "<group>"; };
 		9BAA38F015E1726F00116E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BAA38F215E1726F00116E8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9BAA38F415E1726F00116E8E /* TenMinuters-Prefix.pch */ = {isa = PBXFileReference; path = "TenMinuters-Prefix.pch"; sourceTree = "<group>"; };
-		9BAA38F515E1726F00116E8E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BAA38F415E1726F00116E8E /* TenMinuters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TenMinuters-Prefix.pch"; sourceTree = "<group>"; };
+		9BAA38F515E1726F00116E8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BAA38F615E1726F00116E8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9BAA38F915E1726F00116E8E /* TenMinuters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TenMinuters.xcdatamodel; sourceTree = "<group>"; };
 		9BAA390015E1726F00116E8E /* TenMinutersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenMinutersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAA390115E1726F00116E8E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9BAA390A15E1726F00116E8E /* TenMinutersTests-Info.plist */ = {isa = PBXFileReference; path = "TenMinutersTests-Info.plist"; sourceTree = "<group>"; };
+		9BAA390A15E1726F00116E8E /* TenMinutersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TenMinutersTests-Info.plist"; sourceTree = "<group>"; };
 		9BAA390C15E1726F00116E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9BAA390E15E1726F00116E8E /* TenMinutersTests.h */ = {isa = PBXFileReference; path = TenMinutersTests.h; sourceTree = "<group>"; };
+		9BAA390E15E1726F00116E8E /* TenMinutersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TenMinutersTests.h; sourceTree = "<group>"; };
 		9BAA390F15E1726F00116E8E /* TenMinutersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenMinutersTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
