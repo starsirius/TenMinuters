@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B95F9B115E3349F00350B55 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B95F9A615E3346800350B55 /* libRestKit.a */; };
 		9BAA38E515E1726F00116E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA38E415E1726F00116E8E /* UIKit.framework */; };
 		9BAA38E715E1726F00116E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA38E615E1726F00116E8E /* Foundation.framework */; };
 		9BAA38E915E1726F00116E8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA38E815E1726F00116E8E /* CoreGraphics.framework */; };
@@ -23,9 +24,67 @@
 		9BAA396615E17D0400116E8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA395B15E17D0400116E8E /* main.m */; };
 		9BAA396715E17D0400116E8E /* TenMinuters-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA396015E17D0400116E8E /* TenMinuters-Info.plist */; };
 		9BAA396815E17D0400116E8E /* TenMinuters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA396215E17D0400116E8E /* TenMinuters.xcdatamodeld */; };
+		9BAA396C15E19C1300116E8E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA396915E19C1300116E8E /* DetailViewController.xib */; };
+		9BAA396D15E19C1300116E8E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA396A15E19C1300116E8E /* HomeViewController.xib */; };
+		9BAA396E15E19C1300116E8E /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA396B15E19C1300116E8E /* ListViewController.xib */; };
+		9BAA397115E19C3100116E8E /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA397015E19C3100116E8E /* Constant.m */; };
+		9BAA397715E19E0400116E8E /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA397315E19E0400116E8E /* News.m */; };
+		9BAA397815E19E0400116E8E /* NYTNewsWire.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA397615E19E0400116E8E /* NYTNewsWire.m */; };
+		9BAA397C15E19E1B00116E8E /* ContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA397A15E19E1B00116E8E /* ContentManager.m */; };
+		9BAA398315E19E3E00116E8E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA397E15E19E3E00116E8E /* DetailViewController.m */; };
+		9BAA398415E19E3E00116E8E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA398015E19E3E00116E8E /* HomeViewController.m */; };
+		9BAA398515E19E3E00116E8E /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA398215E19E3E00116E8E /* ListViewController.m */; };
+		9BAA3E9115E1A33E00116E8E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA3E9015E1A33E00116E8E /* CFNetwork.framework */; };
+		9BAA3E9315E1A35500116E8E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA3E9215E1A35500116E8E /* MobileCoreServices.framework */; };
+		9BAA3E9515E1A36300116E8E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA3E9415E1A36300116E8E /* Security.framework */; };
+		9BAA3E9715E1A37600116E8E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA3E9615E1A37600116E8E /* SystemConfiguration.framework */; };
+		9BAA3E9915E1A38200116E8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA3E9815E1A38200116E8E /* QuartzCore.framework */; };
+		9BAA3E9B15E1A39200116E8E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA3E9A15E1A39200116E8E /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9B95F9A515E3346800350B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B95F99A15E3346800350B55 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		9B95F9A715E3346800350B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B95F99A15E3346800350B55 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		9B95F9A915E3346800350B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B95F99A15E3346800350B55 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		9B95F9AB15E3346800350B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B95F99A15E3346800350B55 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		9B95F9AD15E3346800350B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B95F99A15E3346800350B55 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		9B95F9AF15E3348900350B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B95F99A15E3346800350B55 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
 		9BAA390615E1726F00116E8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9BAA38D715E1726F00116E8E /* Project object */;
@@ -36,6 +95,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B95F99A15E3346800350B55 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = TenMinuters/Libraries/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
 		9BAA38E015E1726F00116E8E /* TenMinuters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenMinuters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAA38E415E1726F00116E8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9BAA38E615E1726F00116E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,6 +115,31 @@
 		9BAA396015E17D0400116E8E /* TenMinuters-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TenMinuters-Info.plist"; sourceTree = "<group>"; };
 		9BAA396115E17D0400116E8E /* TenMinuters-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TenMinuters-Prefix.pch"; sourceTree = "<group>"; };
 		9BAA396315E17D0400116E8E /* TenMinuters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TenMinuters.xcdatamodel; sourceTree = "<group>"; };
+		9BAA396915E19C1300116E8E /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		9BAA396A15E19C1300116E8E /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		9BAA396B15E19C1300116E8E /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		9BAA396F15E19C3100116E8E /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		9BAA397015E19C3100116E8E /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		9BAA397215E19E0400116E8E /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		9BAA397315E19E0400116E8E /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		9BAA397415E19E0400116E8E /* NewsProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsProviderProtocol.h; sourceTree = "<group>"; };
+		9BAA397515E19E0400116E8E /* NYTNewsWire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTNewsWire.h; sourceTree = "<group>"; };
+		9BAA397615E19E0400116E8E /* NYTNewsWire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTNewsWire.m; sourceTree = "<group>"; };
+		9BAA397915E19E1B00116E8E /* ContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentManager.h; sourceTree = "<group>"; };
+		9BAA397A15E19E1B00116E8E /* ContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentManager.m; sourceTree = "<group>"; };
+		9BAA397B15E19E1B00116E8E /* ContentRequesterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentRequesterProtocol.h; sourceTree = "<group>"; };
+		9BAA397D15E19E3E00116E8E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9BAA397E15E19E3E00116E8E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9BAA397F15E19E3E00116E8E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9BAA398015E19E3E00116E8E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9BAA398115E19E3E00116E8E /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		9BAA398215E19E3E00116E8E /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		9BAA3E9015E1A33E00116E8E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9BAA3E9215E1A35500116E8E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9BAA3E9415E1A36300116E8E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9BAA3E9615E1A37600116E8E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9BAA3E9815E1A38200116E8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9BAA3E9A15E1A39200116E8E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +147,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B95F9B115E3349F00350B55 /* libRestKit.a in Frameworks */,
+				9BAA3E9B15E1A39200116E8E /* libxml2.dylib in Frameworks */,
+				9BAA3E9915E1A38200116E8E /* QuartzCore.framework in Frameworks */,
+				9BAA3E9715E1A37600116E8E /* SystemConfiguration.framework in Frameworks */,
+				9BAA3E9515E1A36300116E8E /* Security.framework in Frameworks */,
+				9BAA3E9315E1A35500116E8E /* MobileCoreServices.framework in Frameworks */,
+				9BAA38EB15E1726F00116E8E /* CoreData.framework in Frameworks */,
+				9BAA3E9115E1A33E00116E8E /* CFNetwork.framework in Frameworks */,
 				9BAA38E515E1726F00116E8E /* UIKit.framework in Frameworks */,
 				9BAA38E715E1726F00116E8E /* Foundation.framework in Frameworks */,
 				9BAA38E915E1726F00116E8E /* CoreGraphics.framework in Frameworks */,
-				9BAA38EB15E1726F00116E8E /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +175,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B95F99B15E3346800350B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B95F9A615E3346800350B55 /* libRestKit.a */,
+				9B95F9A815E3346800350B55 /* RestKitTests.octest */,
+				9B95F9AA15E3346800350B55 /* RestKit.framework */,
+				9B95F9AC15E3346800350B55 /* RestKitFrameworkTests.octest */,
+				9B95F9AE15E3346800350B55 /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9BAA38D515E1726F00116E8E = {
 			isa = PBXGroup;
 			children = (
+				9B95F99A15E3346800350B55 /* RestKit.xcodeproj */,
 				9BAA393715E1748700116E8E /* README.md */,
 				9BAA395115E17D0400116E8E /* TenMinuters */,
 				9BAA390815E1726F00116E8E /* TenMinutersTests */,
@@ -106,6 +211,12 @@
 		9BAA38E315E1726F00116E8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BAA3E9A15E1A39200116E8E /* libxml2.dylib */,
+				9BAA3E9815E1A38200116E8E /* QuartzCore.framework */,
+				9BAA3E9615E1A37600116E8E /* SystemConfiguration.framework */,
+				9BAA3E9415E1A36300116E8E /* Security.framework */,
+				9BAA3E9215E1A35500116E8E /* MobileCoreServices.framework */,
+				9BAA3E9015E1A33E00116E8E /* CFNetwork.framework */,
 				9BAA38E415E1726F00116E8E /* UIKit.framework */,
 				9BAA38E615E1726F00116E8E /* Foundation.framework */,
 				9BAA38E815E1726F00116E8E /* CoreGraphics.framework */,
@@ -139,6 +250,7 @@
 			children = (
 				9BAA395215E17D0400116E8E /* Code */,
 				9BAA395C15E17D0400116E8E /* Resources */,
+				9BAA398615E19FE600116E8E /* Libraries */,
 				9BAA395915E17D0400116E8E /* InfoPlist.strings */,
 				9BAA395B15E17D0400116E8E /* main.m */,
 				9BAA396015E17D0400116E8E /* TenMinuters-Info.plist */,
@@ -171,6 +283,12 @@
 		9BAA395615E17D0400116E8E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9BAA397D15E19E3E00116E8E /* DetailViewController.h */,
+				9BAA397E15E19E3E00116E8E /* DetailViewController.m */,
+				9BAA397F15E19E3E00116E8E /* HomeViewController.h */,
+				9BAA398015E19E3E00116E8E /* HomeViewController.m */,
+				9BAA398115E19E3E00116E8E /* ListViewController.h */,
+				9BAA398215E19E3E00116E8E /* ListViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -178,6 +296,8 @@
 		9BAA395715E17D0400116E8E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				9BAA396F15E19C3100116E8E /* Constant.h */,
+				9BAA397015E19C3100116E8E /* Constant.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -185,6 +305,14 @@
 		9BAA395815E17D0400116E8E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9BAA397915E19E1B00116E8E /* ContentManager.h */,
+				9BAA397A15E19E1B00116E8E /* ContentManager.m */,
+				9BAA397B15E19E1B00116E8E /* ContentRequesterProtocol.h */,
+				9BAA397215E19E0400116E8E /* News.h */,
+				9BAA397315E19E0400116E8E /* News.m */,
+				9BAA397415E19E0400116E8E /* NewsProviderProtocol.h */,
+				9BAA397515E19E0400116E8E /* NYTNewsWire.h */,
+				9BAA397615E19E0400116E8E /* NYTNewsWire.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,6 +337,9 @@
 		9BAA395E15E17D0400116E8E /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
+				9BAA396915E19C1300116E8E /* DetailViewController.xib */,
+				9BAA396A15E19C1300116E8E /* HomeViewController.xib */,
+				9BAA396B15E19C1300116E8E /* ListViewController.xib */,
 			);
 			path = Nibs;
 			sourceTree = "<group>";
@@ -218,6 +349,13 @@
 			children = (
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		9BAA398615E19FE600116E8E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +372,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9B95F9B015E3348900350B55 /* PBXTargetDependency */,
 			);
 			name = TenMinuters;
 			productName = TenMinuters;
@@ -278,6 +417,12 @@
 			mainGroup = 9BAA38D515E1726F00116E8E;
 			productRefGroup = 9BAA38E115E1726F00116E8E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9B95F99B15E3346800350B55 /* Products */;
+					ProjectRef = 9B95F99A15E3346800350B55 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9BAA38DF15E1726F00116E8E /* TenMinuters */,
@@ -285,6 +430,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9B95F9A615E3346800350B55 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 9B95F9A515E3346800350B55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B95F9A815E3346800350B55 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 9B95F9A715E3346800350B55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B95F9AA15E3346800350B55 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 9B95F9A915E3346800350B55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B95F9AC15E3346800350B55 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 9B95F9AB15E3346800350B55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B95F9AE15E3346800350B55 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = 9B95F9AD15E3346800350B55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9BAA38DE15E1726F00116E8E /* Resources */ = {
@@ -294,6 +477,9 @@
 				9BAA393815E1748700116E8E /* README.md in Resources */,
 				9BAA396515E17D0400116E8E /* InfoPlist.strings in Resources */,
 				9BAA396715E17D0400116E8E /* TenMinuters-Info.plist in Resources */,
+				9BAA396C15E19C1300116E8E /* DetailViewController.xib in Resources */,
+				9BAA396D15E19C1300116E8E /* HomeViewController.xib in Resources */,
+				9BAA396E15E19C1300116E8E /* ListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +517,13 @@
 				9BAA396415E17D0400116E8E /* AppDelegate.m in Sources */,
 				9BAA396615E17D0400116E8E /* main.m in Sources */,
 				9BAA396815E17D0400116E8E /* TenMinuters.xcdatamodeld in Sources */,
+				9BAA397115E19C3100116E8E /* Constant.m in Sources */,
+				9BAA397715E19E0400116E8E /* News.m in Sources */,
+				9BAA397815E19E0400116E8E /* NYTNewsWire.m in Sources */,
+				9BAA397C15E19E1B00116E8E /* ContentManager.m in Sources */,
+				9BAA398315E19E3E00116E8E /* DetailViewController.m in Sources */,
+				9BAA398415E19E3E00116E8E /* HomeViewController.m in Sources */,
+				9BAA398515E19E3E00116E8E /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +538,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9B95F9B015E3348900350B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 9B95F9AF15E3348900350B55 /* PBXContainerItemProxy */;
+		};
 		9BAA390715E1726F00116E8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9BAA38DF15E1726F00116E8E /* TenMinuters */;
@@ -420,9 +618,19 @@
 		9BAA391415E1726F00116E8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TenMinuters/Libraries/RestKit/Tests/Vendor/OCHamcrest\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TenMinuters/TenMinuters-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../TenMinuters/Libraries/RestKit/Build/Headers\"";
 				INFOPLIST_FILE = "TenMinuters/TenMinuters-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -431,9 +639,19 @@
 		9BAA391515E1726F00116E8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TenMinuters/Libraries/RestKit/Tests/Vendor/OCHamcrest\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TenMinuters/TenMinuters-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../TenMinuters/Libraries/RestKit/Build/Headers\"";
 				INFOPLIST_FILE = "TenMinuters/TenMinuters-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -492,6 +710,7 @@
 				9BAA391515E1726F00116E8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BAA391615E1726F00116E8E /* Build configuration list for PBXNativeTarget "TenMinutersTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +719,7 @@
 				9BAA391815E1726F00116E8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
