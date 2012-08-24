@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B895E3715E7C807001764CB /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B895E2B15E7C7BD001764CB /* libRestKit.a */; };
 		9BAA38E515E1726F00116E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA38E415E1726F00116E8E /* UIKit.framework */; };
 		9BAA38E715E1726F00116E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA38E615E1726F00116E8E /* Foundation.framework */; };
 		9BAA38E915E1726F00116E8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA38E815E1726F00116E8E /* CoreGraphics.framework */; };
@@ -42,6 +43,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9B895E2A15E7C7BD001764CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B895E1F15E7C7BC001764CB /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		9B895E2C15E7C7BD001764CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B895E1F15E7C7BC001764CB /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		9B895E2E15E7C7BD001764CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B895E1F15E7C7BC001764CB /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		9B895E3015E7C7BD001764CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B895E1F15E7C7BC001764CB /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		9B895E3215E7C7BD001764CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B895E1F15E7C7BC001764CB /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		9B895E3515E7C802001764CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B895E1F15E7C7BC001764CB /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
 		9BAA390615E1726F00116E8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9BAA38D715E1726F00116E8E /* Project object */;
@@ -52,6 +95,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B895E1F15E7C7BC001764CB /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = TenMinuters/Libraries/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
 		9BAA38E015E1726F00116E8E /* TenMinuters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenMinuters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAA38E415E1726F00116E8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9BAA38E615E1726F00116E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B895E3715E7C807001764CB /* libRestKit.a in Frameworks */,
 				9BAA3E9B15E1A39200116E8E /* libxml2.dylib in Frameworks */,
 				9BAA3E9915E1A38200116E8E /* QuartzCore.framework in Frameworks */,
 				9BAA3E9715E1A37600116E8E /* SystemConfiguration.framework in Frameworks */,
@@ -130,9 +175,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B895E2015E7C7BC001764CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B895E2B15E7C7BD001764CB /* libRestKit.a */,
+				9B895E2D15E7C7BD001764CB /* RestKitTests.octest */,
+				9B895E2F15E7C7BD001764CB /* RestKit.framework */,
+				9B895E3115E7C7BD001764CB /* RestKitFrameworkTests.octest */,
+				9B895E3315E7C7BD001764CB /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9BAA38D515E1726F00116E8E = {
 			isa = PBXGroup;
 			children = (
+				9B895E1F15E7C7BC001764CB /* RestKit.xcodeproj */,
 				9BAA393715E1748700116E8E /* README.md */,
 				9BAA395115E17D0400116E8E /* TenMinuters */,
 				9BAA390815E1726F00116E8E /* TenMinutersTests */,
@@ -314,6 +372,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9B895E3615E7C802001764CB /* PBXTargetDependency */,
 			);
 			name = TenMinuters;
 			productName = TenMinuters;
@@ -358,6 +417,12 @@
 			mainGroup = 9BAA38D515E1726F00116E8E;
 			productRefGroup = 9BAA38E115E1726F00116E8E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9B895E2015E7C7BC001764CB /* Products */;
+					ProjectRef = 9B895E1F15E7C7BC001764CB /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9BAA38DF15E1726F00116E8E /* TenMinuters */,
@@ -365,6 +430,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9B895E2B15E7C7BD001764CB /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 9B895E2A15E7C7BD001764CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B895E2D15E7C7BD001764CB /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 9B895E2C15E7C7BD001764CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B895E2F15E7C7BD001764CB /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 9B895E2E15E7C7BD001764CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B895E3115E7C7BD001764CB /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 9B895E3015E7C7BD001764CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B895E3315E7C7BD001764CB /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = 9B895E3215E7C7BD001764CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9BAA38DE15E1726F00116E8E /* Resources */ = {
@@ -435,6 +538,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9B895E3615E7C802001764CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 9B895E3515E7C802001764CB /* PBXContainerItemProxy */;
+		};
 		9BAA390715E1726F00116E8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9BAA38DF15E1726F00116E8E /* TenMinuters */;
@@ -516,7 +624,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TenMinuters/TenMinuters-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../TenMinuters/Libraries/RestKit/Build/Headers\"";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "TenMinuters/TenMinuters-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
@@ -537,7 +645,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TenMinuters/TenMinuters-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../TenMinuters/Libraries/RestKit/Build/Headers\"";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "TenMinuters/TenMinuters-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
